@@ -1,0 +1,87 @@
+
+
+.anime2 {
+    animation: appear2 0.6s linear forwards; 
+}
+
+@keyframes appear2 {
+    from {
+        opacity: 0; 
+        transform: translateY(100px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translate3(0, 0, 0);
+    }
+}
+
+
+.progress-bar{
+    animation: moving 1s linear forwards;
+}
+
+@keyframes moving {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+    
+}
+.progress-bar{
+    animation: moving 1s linear forwards;
+}
+
+@keyframes moving {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+    
+}
+.progress-bar2{
+    animation: moving2 1s linear forwards;
+}
+
+@keyframes moving2 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+    
+}
+.progress-bar3{
+    animation: moving3 1s linear forwards;
+}
+
+@keyframes moving3 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+    
+}
+.progress-bar4{
+    animation: moving4 1s linear forwards;
+}
+
+@keyframes moving4 {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+    
+}
+
+
+
+
